@@ -28,6 +28,8 @@ namespace Calculs
                 Console.Write("Choix :                          ");
                 choix = Console.ReadLine();
                 // traitement des choix
+                val1 = rand.Next(1, 10);
+                val2 = rand.Next(1, 10);
                 switch (choix)
                 {
                     case "1": // addition
